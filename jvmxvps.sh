@@ -1,33 +1,35 @@
 #!/bin/bash
 while true
 do                                                                                                       clear
-    echo -e "\033[1;32m░░░░░██╗██╗░░░██╗███╗░░░███╗██╗░░██╗\033[0m
-\033[1;32m░░░░░██║██║░░░██║████╗░████║╚██╗██╔╝\033[0m
-\033[1;32m░░░░░██║╚██╗░██╔╝██╔████╔██║░╚███╔╝░\033[0m
-\033[1;32m██╗░░██║░╚████╔╝░██║╚██╔╝██║░██╔██╗░\033[0m
-\033[1;32m╚█████╔╝░░╚██╔╝░░██║░╚═╝░██║██╔╝╚██╗\033[0m
-\033[1;32m░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝\033[0m"
-    echo -e " "                                                                                                        
-    echo -e "\033[1;32mDESAROLLADOR\033[0m \033[1;31m @JVMXVPS                  \033[1;32m VERCION:\033[0m \033[1;36m2.0\033[0m"
-    echo -e "\033[1;32mULTIMA ACUALIZACION:\033[0m \033[1;34m02:08:24\033[0m"
-    echo -e " "
-    echo -e "\033[1;36mPANEL PRINCIPAL OPCIONES\033[0m"
-    echo -e " "
-    echo -e "\033[32m[\033[0m\033[1;34m1\033[0\033[32m]\033[0m• \033[1;33mEXTRACTOR DE HOST\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m2\033[0\033[32m]\033[0m• \033[1;33mEXTRACTOR DE SUBDOMINIOS\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m3\033[0\033[32m]\033[0m• \033[1;33mSNI INFO\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m4\033[0\033[32m]\033[0m• \033[1;33mCDN FINDER\033[0m \033[1;34mBETA\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m5\033[0\033[32m]\033[0m• \033[1;33mVER PUERTOS ABIERTOS\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m6\033[0\033[32m]\033[0m• \033[1;33mSUBFINDER\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m7\033[0\033[32m]\033[0m• \033[1;33mSUBFINDER BUGSCANNER\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m8\033[0\033[32m]\033[0m• \033[1;33mGENERADOR DE PAYLOADS\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34m9\033[0\033[32m]\033[0m• \033[1;33mREPARAR SCRIPT\033[0m"
-    echo -e "\033[32m[\033[0m\033[1;34mD\033[0\033[32m]\033[0m• \033[1;33mINSTALAR SUBFINDER\033[0m"
-    echo -e " "
-    echo -e " "
-    echo -e "\033[31m[0]. SALIR\033[0m"
-
-    read -p $'\033[1;34mSeleccione una opción: \033[0m' opcion
+echo -e "\e[36m──────────────────────────────────────\e[0m"
+echo -e "\e[36m░░░░░██╗██╗░░░██╗███╗░░░███╗██╗░░██╗\e[0m"
+echo -e "\e[36m░░░░░██║██║░░░██║████╗░████║╚██╗██╔╝\e[0m"
+echo -e "\e[36m░░░░░██║╚██╗░██╔╝██╔████╔██║░╚███╔╝░\e[0m"
+echo -e "\e[36m██╗░░██║░╚████╔╝░██║╚██╔╝██║░██╔██╗░\e[0m"
+echo -e "\e[36m╚█████╔╝░░╚██╔╝░░██║░╚═╝░██║██╔╝╚██╗\e[0m"
+echo -e "\e[36m░╚════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝\e[0m"
+echo -e "\e[36m──────────────────────────────────────\e[0m"
+echo -e "\e[33mDESARROLLADOR\033[0m \e[91m@JVMXVPS\e[0m"
+echo -e "\e[33mVERCION:\033[0m \e[91m9.0\e[0m"
+echo -e "\e[33mULTIMA ACTUALIZACION:\033[0m \e[91m18:08:24\e[0m"
+echo -e "\e[36m──────────────────────────────────────\e[0m"
+echo -e "\e[32mPANEL PRINCIPAL\e[0m"
+echo -e "\e[36m──────────────────────────────────────\e[0m"
+echo -e "\e[34mOPCIONES:\e[0m"
+echo -e "\e[92m[1]\033[0m EXTRACTOR DE HOST"
+echo -e "\e[92m[2]\033[0m EXTRACTOR DE SUBDOMINIOS"
+echo -e "\e[92m[3]\033[0m SNI INFO"
+echo -e "\e[92m[4]\033[0m CDN FINDER"
+echo -e "\e[92m[5]\033[0m VER PUERTOS ABIERTOS"
+echo -e "\e[92m[6]\033[0m SUBFINDER"
+echo -e "\e[92m[7]\033[0m SUBFINDER BUGSCANNER"
+echo -e "\e[92m[8]\033[0m GENERADOR DE PAYLOADS"
+echo -e "\e[92m[9]\033[0m REPARAR SCRIPT"
+echo -e "\e[92m[D]\033[0m INSTALAR SUBFINDER"
+echo -e "\e[92m[M2]\033[0m MENU SECUNDARIO"
+echo -e "\e[36m──────────────────────────────────────\e[0m"
+echo -e "\e[92m[0]\033[0m SALIR                 \e[92m[H]\033[0m CREDITOS"
+read -p  "Seleccione una opción: " opcion
 
     case $opcion in
         1)
@@ -46,7 +48,7 @@ echo -e "\033[1;34mDominio principal:\033[0m\033[1;32m $domain\033[0m"
 
 # Crear una lista de posibles subdominios
 echo -e "\033[1;34mGENERANDO LISTA DE POSIBLES SUBDOMINIOS\033[0m"
-subdomains=("www" "mail" "ftp" "webmail" "ns" "dev" "staging" "blog") # Agrega más subdominios si lo deseas
+subdomains=("www") # Agrega más subdominios si lo deseas
 > subdomains.txt # Limpiar el archivo subdomains.txt
 for sub in "${subdomains[@]}"; do
     echo "$sub.$domain" >> subdomains.txt
@@ -111,7 +113,7 @@ echo -e "\033[1;34mDominio principal:\033[0m\033[1;32M $domain\033[0m"
 
 # Crear una lista de posibles subdominios
 echo -e "\033[1;34mGenerando lista de posibles subdominios...\033[0m"
-subdomains=("www" "mail" "ftp" "webmail" "ns" "dev" "staging" "blog") # Agrega más subdominios si lo deseas
+subdomains=("www") # Agrega más subdominios si lo deseas
 > subdomains.txt # Limpiar el archivo subdomains.txt
 for sub in "${subdomains[@]}"; do
     echo "$sub.$domain" >> subdomains.txt
@@ -286,7 +288,7 @@ clear
 # eliminar salida.txt
 rm salida.txt
 
-echo -e "\033[0;32mIngrese la URL: \033[0m"
+echo -e "\033[1;32mINGRESE LA URL: \033[0m"
     read url
     if [ -z "$url" ]; then
       echo -e "\033[0;31mPor favor, ingrese una URL válida.\033[0m"
@@ -299,7 +301,7 @@ echo -e "\033[0;32mIngrese la URL: \033[0m"
   7)
    # Limpiar pantalla
 clear
-  echo -e "\033[1;31mNOTA:\033[0m\033[1;36m ES NECESARIO USAR PRIMERO SUBFINDER PARA GENERAR LOS DOMINIOS A\033[0m \033[1;32mESCANEARH\033[0m"
+  echo -e "\033[1;31mNOTA:\033[0m\033[1;36m ES NECESARIO USAR PRIMERO SUBFINDER PARA GENERAR LOS DOMINIOS A\033[0m \033[1;32mESCANEAR\033[0m"
   echo -e " "
   echo -e " "
 
@@ -437,6 +439,23 @@ echo -e "\033[1;34mchmod +x ~/../usr/bin/subfinder\033[0m"
 echo -e " "
 echo -e " "
 read -p $'\033[1;36mPresione Enter para continuar...\033[0m'
+     ;;
+  H)
+  #Creditos Insanos xd
+  clear
+  echo -e "\e[91mAVISO!\033[0m \e[92mTodos los creditos van dirigidos hacia mi Jvmx Vps yo me encargue de crear cada fragmento del script desde cero no hay ningun colaborador, yo desarrolle y adapte cada estructura al script\033[0m"
+  echo -e "\e[92mDev:\033[0m \e[91m@JVMXVPS\033[0m"
+  echo -e "\e[92mOrigen:\033[0m \e[91mMexico\033[0m"
+  echo -e "\e[92mScript:\033[0m \e[91mJVMX-HOST\033[0m"
+  echo -e "\e[92mVercion:\033[0m \e[91m9.0\033[0m"
+  echo -e "\e[92mActualizacion:\033[0m \e[91m18:08:24\033[0m"
+  read -p $'\033[1;36mPresione Enter para continuar...\033[0m'
+     ;;
+  M2)
+#Dar Permiso y Ejecutar menu 2, eliminar txt s3r
+rm -rf salidaS3r.txt
+chmod +x menu.sh
+bash menu.sh
      ;;
   0)
     # Salir del script
